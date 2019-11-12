@@ -2,6 +2,11 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+'''
+This file goes to Smogon's OU competitive pokedex and scrapes all the movesets from it,
+allowing the bot to access almost all the likely movesets in a given OU match.
+'''
+
 
 # loading the dex page and putting it into r
 def render_page(link_url, button=False):
